@@ -1,0 +1,57 @@
+html,body{height:100%;}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background:#f5f7fa;
+  color:#222;
+  margin:0;
+  padding:20px;
+  -webkit-font-smoothing:antialiased;
+}
+.container{
+  max-width:960px;
+  margin:24px auto;
+  background:#ffffff;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 6px 18px rgba(15,23,42,0.06);
+}
+h2{margin-top:0;color:#111}
+p.info{margin-bottom:12px}
+a{color:#0b6efd;text-decoration:none}
+a:hover{text-decoration:underline}
+
+input[type="text"], input[type="email"], input[type="password"], input[name="preco"], textarea{
+  width:100%;
+  padding:8px 10px;
+  margin:8px 0 14px 0;
+  border:1px solid #dfe3e8;
+  border-radius:6px;
+  box-sizing:border-box;
+  font-size:14px;
+}
+textarea{min-height:100px;resize:vertical}
+button{
+  background:#28a745;
+  border:none;
+  color:#fff;
+  padding:10px 14px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:14px;
+}
+button:hover{filter:brightness(0.95)}
+
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{padding:10px;border-bottom:1px solid #f0f2f5;text-align:left}
+th{background:#fafbfc;font-weight:600}
+.actions a{margin-right:8px;color:#0b6efd}
+
+.muted{color:#6b7280;font-size:13px}
+
+@media (max-width:600px){
+  body{padding:12px}
+  .container{padding:12px}
+  table,thead,tbody,th,td,tr{display:block}
+  th{display:none}
+  td{padding:8px 0;border-bottom:1px solid #eee}
+}
